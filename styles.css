@@ -78,14 +78,34 @@
   line-height: 28px;
   color: #344563;
   margin-top: 32px;
-
-  /* margin-bottom: 28px; */
   height: 98px;
 }
 
 .dett {
   width: 496px;
+  height: 70px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.detu {
+  width: 496px;
   height: 53px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.deta {
+  width: 496px;
+  height: 50px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -231,7 +251,7 @@
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 15px;
   line-height: 24px;
   display: flex;
   align-items: center;
@@ -242,7 +262,7 @@
   border-radius: 8px;
   cursor: pointer;
   margin-top: 52px;
-  width: 126px;
+  width: 122px;
   left: 24px;
   height: 48px;
   padding: 12px;
@@ -254,7 +274,40 @@
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
-.boot:active {
+.bott:active {
+  background: #6070ff;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+.bottt {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  border: 1px solid #396df2;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 56px;
+  width: 138px;
+  left: 24px;
+  height: 24px;
+  padding: 12px;
+}
+
+.bottt:hover {
+  background: #6070ff;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+.bottt:active {
   background: #6070ff;
   color: #fff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
@@ -418,7 +471,13 @@
   align-items: center;
   color: #344563;
   margin-top: 24px;
-  gap: 600px;
+  gap: 608px;
+}
+
+@media screen and (min-width: 768px) {
+  form {
+    background-size: contain;
+  }
 }
 
 .form {
@@ -429,7 +488,7 @@
   border-top-left-radius: 100px;
   align-content: center;
   align-items: center;
-  background-image: url(asset/contact\ img.png);
+  background-image: url(asset/background.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }

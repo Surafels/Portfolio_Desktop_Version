@@ -18,9 +18,10 @@
   align-items: center;
   align-content: center;
   background-color: #fff;
-  background-image: url(asset/background.png);
+  background-image: url(asset/page\ 1.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 99%;
+  background-position: top 118px  right 8px;
   border-bottom-left-radius: 100px;
 }
 
@@ -384,7 +385,17 @@
 .language {
   font-family: 'Poppins', sans-serif;
   display: flex;
+  color: #344563;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
   align-items: center;
+}
+
+.arrow {
+  width: 12px;
+  height: 6px;
 }
 
 .L {
@@ -495,24 +506,18 @@
   gap: 608px;
 }
 
-@media screen and (min-width: 768px) {
-  form {
-    background-size: contain;
-  }
-}
-
 .form {
   width: 1440px;
   height: 846px;
-  margin-top: -300px;
+  margin-top: -350px;
   background: #6070ff;
   border-top-left-radius: 100px;
   align-content: center;
   align-items: center;
-  background-image: url(asset/contact\ form\ shapes-mobile@2x.png);
+  background-image: url(asset/contact\ -1.png);
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: top 119px right 79px;
+  background-size: 92%;
+  background-position: top 70px right 74px;
 }
 
 .form-header {

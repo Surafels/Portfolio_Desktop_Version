@@ -18,9 +18,10 @@
   align-items: center;
   align-content: center;
   background-color: #fff;
-  background-image: url(asset/background.png);
+  background-image: url(asset/page\ 1.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 99%;
+  background-position: top 118px  right 8px;
   border-bottom-left-radius: 100px;
 }
 
@@ -78,14 +79,34 @@
   line-height: 28px;
   color: #344563;
   margin-top: 32px;
-
-  /* margin-bottom: 28px; */
   height: 98px;
 }
 
 .dett {
   width: 496px;
+  height: 70px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.detu {
+  width: 496px;
   height: 53px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.deta {
+  width: 496px;
+  height: 50px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -112,13 +133,15 @@
 }
 
 .card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   width: 1156px;
   height: 496px;
   margin: 142px;
-  margin-top: ;
   border: 1px solid #dfe1e6;
   border-radius: 24px;
   background: #fff;
+  grid-gap: 4px;
 }
 
 .item {
@@ -136,6 +159,18 @@
 }
 
 .tonic {
+  width: 496px;
+  height: 46px;
+  margin-top: 48px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #091e42;
+}
+
+.tonic-t {
   width: 496px;
   height: 46px;
   margin-top: 48px;
@@ -207,6 +242,12 @@
 .skills {
   display: flex;
   gap: 8px;
+  margin-top: -20px;
+}
+
+.skillss {
+  display: flex;
+  gap: 8px;
 }
 
 .skill {
@@ -225,14 +266,14 @@
 }
 
 .uff {
-  margin-top: 52px;
+  margin-top: 2px;
 }
 
 .bott {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 15px;
   line-height: 24px;
   display: flex;
   align-items: center;
@@ -242,8 +283,8 @@
   border: 1px solid #396df2;
   border-radius: 8px;
   cursor: pointer;
-  margin-top: 56px;
-
+  margin-top: 52px;
+  width: 122px;
   width: 126px;
   left: 24px;
   height: 48px;
@@ -262,7 +303,6 @@
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
-
 .bottt {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -278,7 +318,6 @@
   border-radius: 8px;
   cursor: pointer;
   margin-top: 56px;
-
   width: 138px;
   left: 24px;
   height: 24px;
@@ -296,7 +335,6 @@
   color: #fff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
-
 
 .about-me {
   width: 1440px;
@@ -348,7 +386,17 @@
 .language {
   font-family: 'Poppins', sans-serif;
   display: flex;
+  color: #344563;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
   align-items: center;
+}
+
+.arrow {
+  width: 12px;
+  height: 6px;
 }
 
 .L {
@@ -427,7 +475,6 @@
   margin-top: 36px;
 }
 
-
 .fss {
   display: flex;
   flex-direction: column;
@@ -457,20 +504,21 @@
   align-items: center;
   color: #344563;
   margin-top: 24px;
-  gap: 603px;
+  gap: 608px;
 }
 
 .form {
   width: 1440px;
   height: 846px;
-  margin-top: -300px;
+  margin-top: -350px;
   background: #6070ff;
   border-top-left-radius: 100px;
   align-content: center;
   align-items: center;
-  background-image: url(asset/contact\ img.png);
+  background-image: url(asset/contact\ -1.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 92%;
+  background-position: top 70px right 74px;
 }
 
 .form-header {

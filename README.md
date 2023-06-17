@@ -26,7 +26,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
-# 📖 [project_name] <a name="Mobile_Portfolio"></a>
+# 📖 [project_name] <a name="Desktop_Version_Portfolio"></a>
 **[Portfolio_Mobile]** is describing greeting for Microverese 
 
 ## 🛠 Built With <a name="built-with"></a>

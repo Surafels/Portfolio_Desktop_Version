@@ -132,12 +132,15 @@
 }
 
 .card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   width: 1156px;
   height: 496px;
   margin: 142px;
   border: 1px solid #dfe1e6;
   border-radius: 24px;
   background: #fff;
+  grid-gap: 4px;
 }
 
 .item {
@@ -155,6 +158,18 @@
 }
 
 .tonic {
+  width: 496px;
+  height: 46px;
+  margin-top: 48px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #091e42;
+}
+
+.tonic-t {
   width: 496px;
   height: 46px;
   margin-top: 48px;
@@ -226,6 +241,12 @@
 .skills {
   display: flex;
   gap: 8px;
+  margin-top: -20px;
+}
+
+.skillss {
+  display: flex;
+  gap: 8px;
 }
 
 .skill {
@@ -244,7 +265,7 @@
 }
 
 .uff {
-  margin-top: 52px;
+  margin-top: 2px;
 }
 
 .bott {
@@ -488,9 +509,10 @@
   border-top-left-radius: 100px;
   align-content: center;
   align-items: center;
-  background-image: url(asset/background.png);
+  background-image: url(asset/contact\ form\ shapes-mobile@2x.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: contain;
+  background-position: top 119px right 79px;
 }
 
 .form-header {
